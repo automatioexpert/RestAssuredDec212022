@@ -10,7 +10,7 @@ import constants.OLMProjectConstants;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 
-public class GetRequest3 extends TestBase {
+public class GetRequest4 extends TestBase {
 
 	@Test
 	public void getRequest() {
@@ -18,9 +18,12 @@ public class GetRequest3 extends TestBase {
 
 		Assert.assertEquals(response.getStatusCode(), 200);
 
-		ResponseBody body = response.getBody();
-		System.out.println("Response body is : " + body.asString());
+		//Retrieve the body of the response
+		String body = response.getBody().asString();
+		
+		System.out.println("Response body is : " + body);
 
+		Assert.assertEquals(body.contains("michael.lawson@reqres.in"), true);
 	}
 
 }

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-21T11:54:18 IST" name="Basic Integration Test Suite" finished-at="2022-12-21T11:54:21 IST" duration-ms="2596">
+  <suite name="Basic Integration Test Suite" duration-ms="4143" started-at="2022-12-21T18:19:51 IST" finished-at="2022-12-21T18:19:55 IST">
     <groups>
     </groups>
-    <test started-at="2022-12-21T11:54:18 IST" name="Test" finished-at="2022-12-21T11:54:21 IST" duration-ms="2596">
+    <test name="Test" duration-ms="4143" started-at="2022-12-21T18:19:51 IST" finished-at="2022-12-21T18:19:55 IST">
       <class name="request.GetRequest2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:request.GetRequest2@f107c50]" started-at="2022-12-21T11:54:17 IST" name="setUp" finished-at="2022-12-21T11:54:18 IST" duration-ms="711" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:request.GetRequest2@63021689]" name="setUp" is-config="true" duration-ms="1057" started-at="2022-12-21T18:19:50 IST" finished-at="2022-12-21T18:19:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getRequest()[pri:0, instance:request.GetRequest2@f107c50]" started-at="2022-12-21T11:54:18 IST" name="getRequest" finished-at="2022-12-21T11:54:20 IST" duration-ms="2078" status="PASS">
+        <test-method status="PASS" signature="getRequest()[pri:0, instance:request.GetRequest2@63021689]" name="getRequest" duration-ms="2890" started-at="2022-12-21T18:19:51 IST" finished-at="2022-12-21T18:19:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRequest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:request.GetRequest2@f107c50]" started-at="2022-12-21T11:54:21 IST" name="tearDown" finished-at="2022-12-21T11:54:21 IST" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:request.GetRequest2@63021689]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-12-21T18:19:55 IST" finished-at="2022-12-21T18:19:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
